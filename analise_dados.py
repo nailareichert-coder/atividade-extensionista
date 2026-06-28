@@ -126,6 +126,6 @@ prioridade.plot(
 )
 
 plt.title("Os moradores consideram esse problema prioritário?")
-plt.ylabel("")  # Remove o rótulo lateral
+plt.ylabel("")
 plt.tight_layout()
 plt.show()
