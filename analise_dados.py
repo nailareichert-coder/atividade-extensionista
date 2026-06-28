@@ -22,7 +22,7 @@ dados["Problema"] = (
     .str.replace("\xa0", " ", regex=True)
 )
 
-# Convertendo a gravidade para número
+# Convertendo a gravidade em número
 dados["Gravidade"] = pd.to_numeric(dados["Gravidade"])
 
 # Informações da base
